@@ -39,6 +39,8 @@ class ShowScreen extends StatelessWidget {
               ListTile(
                 title: Text(u.phone),
               ),
+
+              // En cas de no existir foro, carrega negre
               cargarImagenURL(u.photo),
             ],
           ),
